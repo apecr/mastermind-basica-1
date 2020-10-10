@@ -5,6 +5,10 @@
 * Alberto Eyo
 * Álvaro Martín Martín
 
+## Modelo del dominio
+
+![Domain Model](docs/domain_model.png)
+
 ## Prototipo de Interfaz
 
 ```
