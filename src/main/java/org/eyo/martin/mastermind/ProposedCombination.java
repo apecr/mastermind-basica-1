@@ -6,6 +6,6 @@ package org.eyo.martin.mastermind;
 public class ProposedCombination implements Combination {
     @Override
     public Boolean isCorrect(String sCombination) {
-        return false;
+        return sCombination.length() == 4 && !sCombination.contains("x");
     }
 }
