@@ -11,8 +11,19 @@ public class ProposedCombinationTest {
     @Test
     @DisplayName("Should check that the combination has the right length")
     void combination_length_3() {
-        Boolean result = proposedCombination.isCorrect("rrr");
-        assert result == Boolean.FALSE;
+        assert !proposedCombination.isCorrect("rrr");
+    }
+
+    @Test
+    @DisplayName("Should check that the combination has the right colors. x is not a color")
+    void combination_incorrect(){
+        assert proposedCombination.isCorrect("rxrr") == false;
+    }
+
+    @Test
+    @DisplayName("Should check that the combination has the right colors")
+    void combination_correct(){
+        assert proposedCombination.isCorrect("rrrr") == true;
     }
 
 }
