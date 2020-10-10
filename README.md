@@ -5,6 +5,15 @@
 * Alberto Eyo
 * Álvaro Martín Martín
 
+## Requisitos
+
+Toda la informaciçon se encuentra en [wikipedia][1] o en [youtube][2].
+
+* **Funcionalidad**: Básica
+* **Interfaz**: Texto
+* **Distribución**: Standalone
+* **Persistencia**: No
+
 ## Modelo del dominio
 
 ![Domain Model](docs/domain_model.png)
@@ -41,3 +50,6 @@ pgro --> 4 blacks and 0 whites
 You've won!!! ;-)
 RESUME? (y/n): y
 ```
+
+[1]: https://en.wikipedia.org/wiki/Mastermind_(board_game)
+[2]: https://www.youtube.com/watch?v=2-hTeg2M6GQ
